@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>معيار</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/images/waslah.png" rel="icon">
+    <link href="assets/img/images/waslah.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style2.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: BizLand
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .flip-card {
+            background-color: transparent;
+            /* width: 300px; */
+            height: 100px;
+            perspective: 1000px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-card-front {
+            color: black;
+        }
+
+        .flip-card-back {
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">معيار</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">الرئيسية</a></li>
+                    <li><a class="nav-link scrollto " href="#features">المميزات</a></li>
+                    <li><a class="nav-link scrollto" href="#opportunities">الخدمات</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="candidates.php">المرشحين</a></li> -->
+                    <!-- <li><a class="nav-link scrollto" href="#clients">الشركاء</a></li>
+                    <li><a class="nav-link scrollto" href="#services">الإعلانات</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">تواصل معنا</a></li>-->
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./assets/img/images/person.png" alt="" style="width: 32px;">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="profile.php">الملف الشخصي</a></li>
+                            <li><a class="dropdown-item" href="set_logout.php" style="color: red;">تسجيل خروج</a></li>
+                        </ul> -->
+                    </li>
+                </ul>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <!-- <h1 style="color: white;">عيش التجربة !</h1> -->
+                    <h1 style="color: white;">وُصلة تصلك بالمبدعين !</h1>
+                    <h2>منصة تصل صنّاع المحتوى الترفيهي إلى الموهوبين</h2>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <img src="/assets/css/Accountant-bro.png" width="350" height="350" alt="">
+                </div>
+            </div>
+            <div class="d-flex">
+                <!-- <a href="#opportunities" class="btn-get-started scrollto">عرض الفرص</a> -->
+                <a href="signup.html" class="btn-get-started scrollto">سجل الآن</a>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+
+    <!-- The Modal About Us -->
+
+
+    <main id="main">
+
+        <section id="featured-services" class="featured-services">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#about_us">
+                            <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="100">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="icon"><i class="bx bx-notepad"></i></div>
+                                            <h4 class="title">من نحن</h4>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <p>منصة وصلة تهدف إلى توفير وسيلة سهلة لصناع المحتوى الترفيهي
+                                                للعثور على المواهب والمهارات التي يحتاجونها لانتاج محتوى ذو جودة عالية
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#vision">
+                            <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="200">
+
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="icon"><i class="bx bx-bulb"></i></div>
+                                            <h4 class="title"> <span class="flip-flop">الرؤية</span></h4>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <p> توفير بيئة محفزة للمواهب المحلية في صناعة الترفيه وتوفير الدعم
+                                                وربطهم بصناع المحتوى الترفيهي,ونسعى إلى تحقيق التعاون والشراكة بينهم</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#message">
+                            <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="300">
+
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="icon"><i class="bx bx-file"></i></div>
+                                            <h4 class="title">الرسالة</h4>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <p> أن نكون المنصة الرائدة في تطوير صناعة الترفيه في المملكة وذلك من خلال
+                                                توفير وسيلة سهلة لصناع المحتوى الترفيهي للوصول للموهوبين</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#goals">
+                            <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="400">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div class="icon"><i class="bx bx-trending-up"></i></div>
+                                            <h4 class="title">الأهداف</h4>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <p>توفير فرص العمل للكوادر السعودية و تعزيز الاقتصاد المحلي
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Featured Services Section -->
+
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="services">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h3>المميزات</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="bx bx-notepad"></i></div>
+                            <h4 class="title">إنشاء محتوى ترفيهي بجودة عالية</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="bx bx-bulb"></i></div>
+                            <h4 class="title">دعم الموهوبين وخلق فرص لهم</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="icon-box info-cards" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4 class="title">تحفيز التعاون والشركة بين صناع المحتوى والموهوبين</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </section><!-- End Features Section -->
+
+
+        <!-- ======= Opportunities Section ======= -->
+        <section id="opportunities" class="services"
+            style="background: linear-gradient(to bottom, #154DB3 0%, #8360D2 65%, #9463D6 100%);">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h3 style="color: #fff;">الفرص</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/activity/opp2.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">ممثل كوميدي</h4>
+                                <p class="card-text">١٩ مايو / ١٠ ص</p>
+                                <p class="card-text">جامعة الملك سعود</p>
+                                <p class="card-text">القيمة المستحقة: ٢٠٠ ريال</p>
+                                <a href="login.php" class="btn btn-primary">سجل في الفرصة</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/activity/f2.png" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">عازف عود</h4>
+                                <p class="card-text">29 مايو / 9 ص</p>
+                                <p class="card-text">جامعة الملك سعود</p>
+                                <p class="card-text">القيمة المستحقة: ٢٠٠ ريال</p>
+                                <a href="login.php" class="btn btn-primary">سجل في الفرصة</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/activity/f3.png" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">رسام</h4>
+                                <p class="card-text">25 مايو / 11 ص</p>
+                                <p class="card-text">جامعة الملك سعود</p>
+                                <p class="card-text">القيمة المستحقة: ٢٠٠ ريال</p>
+                                <a href="login.php" class="btn btn-primary">سجل في الفرصة</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            </div>
+        </section><!-- End Features Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h3>الإعلانات</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/adds/add1.png" alt="Card image">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">سجل هنا</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/adds/add2.png" alt="Card image">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">سجل هنا</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/adds/add3.jpg" alt="Card image">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">سجل هنا</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <!-- ======= Team Section ======= -->
+        <!-- <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h3>أعضاء الفريق</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>راشد شراحيلي</h4>
+                <span>مطور برامج</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>دانة الصبيح</h4>
+                <span>مصمم واجهات</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>نجلاء الحميد</h4>
+                <span>ريادي</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>أمل</h4>
+                <span>مطور فكرة</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Team Section -->
+
+        <!-- ======= Clients Section ======= -->
+
+        <section id="clients" class="clients section-bg">
+            <div class="container" data-aos="zoom-in">
+                <div class="section-title">
+                    <h3>الشركاء</h3>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Clients Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h3>تواصل معنا</h3>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3">
+                        <div class="info-box mb-4">
+                            <a href="#">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="info-box mb-4">
+                            <a href="#">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <a href="#">
+                                <i class="bx bx-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <a href="#">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            جميع الحقوق محفوظة &copy;<strong><span>وُصلة</span></strong>
+                        </div>
+                    </div>
+                </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
