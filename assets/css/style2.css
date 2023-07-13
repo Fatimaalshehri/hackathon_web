@@ -1846,20 +1846,19 @@ section {
   
 }
 
-
-
-
-
-
 .row .card{
 width: 60%;
   margin-top: 30rem;
-  justify-content: center;
+
 
 }
 
 .card{
-  display: block;
-}
+  justify-content: space-between;
+  display:flex;
+margin-bottom: 20px;
+margin-right: 70px;
+
+}   
 
 
