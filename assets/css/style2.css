@@ -23,7 +23,9 @@ a {
   color: #31696e;
   text-decoration: none;
 }
-
+#textm {
+  color: white;
+}
 a:hover {
   color: #31696e;
   text-decoration: none;
