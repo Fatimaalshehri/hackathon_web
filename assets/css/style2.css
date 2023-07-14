@@ -530,7 +530,7 @@ h6 {
   padding: 10px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #4D58C2;
+  color: #31696e;
   background: #fff;
 }
 
@@ -900,7 +900,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #062b5b;
+  color: #31696e;
 }
 
 .counts .count-box p {
@@ -962,7 +962,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #4D58C2;
+  color: #31696e;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -1004,7 +1004,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials {
+/* .testimonials {
   padding: 80px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
@@ -1101,12 +1101,12 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -1209,12 +1209,12 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
 }
 
@@ -1274,7 +1274,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
@@ -1361,7 +1361,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1466,7 +1466,7 @@ section {
   padding: 1px 0 3px 0;
   background: #106eea;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1489,13 +1489,13 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #106eea;
+  font-family: #31696e;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #0d58ba;
+  color: #31696e;
   transition: 0.3s;
 }
 
@@ -1520,7 +1520,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #106eea;
+  color: #31696e;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1537,7 +1537,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: linear-gradient(to top, #154DB3 100%, #8360D2 100%, #9463D6 100%);
+  background: #31696e;
 }
 .contact .section-title{
   color: white;
@@ -1630,7 +1630,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #106eea;
+  border-color: #31696e;
 }
 
 .contact .php-email-form input {
@@ -1642,7 +1642,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #106eea;
+  background: #31696e;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1651,7 +1651,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #3b8af2;
+  background: #31696e;
 }
 
 @keyframes animate-loading {
@@ -1671,7 +1671,7 @@ section {
   padding: 0 0 30px 0;
   color: #ffffff;
   font-size: 14px;
-  background: #9463D6  ;
+  background: #31696e  ;
 }
 
 #footer .footer-newsletter {
@@ -1714,7 +1714,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #106eea;
+  background: #31696e;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1722,7 +1722,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #05482a;
+  background: #31696e;
 }
 
 #footer .footer-top {
@@ -1774,7 +1774,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #106eea;
+  color: #31696e;
   font-size: 18px;
   line-height: 1;
 }
@@ -1798,13 +1798,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #106eea;
+  color: #31696e;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #106eea;
+  background: #31696e;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1817,7 +1817,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #3b8af2;
+  background: #31696e;
   color: #fff;
   text-decoration: none;
 }
