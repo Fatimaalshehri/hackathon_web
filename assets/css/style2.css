@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 #textm {
-  color: white;
+  
 }
 a:hover {
   color: #31696e;
@@ -718,6 +718,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services .icon-box {
   padding: 30px;
+  padding-bottom: 70px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -747,6 +748,7 @@ section {
 
 .featured-services .icon {
   margin-bottom: 15px;
+  
 }
 
 .featured-services .icon i {
@@ -754,6 +756,7 @@ section {
   line-height: 1;
   color: #31696e;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .featured-services .title {
