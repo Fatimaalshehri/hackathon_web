@@ -488,7 +488,11 @@ h6 {
 
 #hero:before {
   content: "";
-  background: #31696e;
+  /* background-color index here */
+  background: #0e6150; 
+    background: linear-gradient(to bottom, #0e5c50 0%, #277d6d 65%, #44a493 100%);
+
+
   position: absolute;
   bottom: 0;
   top: 0;
@@ -610,7 +614,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #1148a7;
 }
 
 .section-title {
