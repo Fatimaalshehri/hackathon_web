@@ -34,15 +34,15 @@
     <style>
     #main {
 
-        background: #ffffff;
-        color: #000000;
+        background: linear-gradient(to bottom, #1d1b5a 0%, #3b388d 65%, #444188 100%);
+        color: #ffffff;
         height: 100vh;
         
     }
 
     .nav-link {
 
-        color: #140101;
+        color: #ffffff;
     }
 
     .nav-link:hover {
@@ -75,22 +75,61 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
-            <h1 class="logo"><a href="index.html">معيار</a></h1>
+            <h1 class="logo"><a href="farad.html">معيار</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
-                        <nav id="navbar" class="navbar">
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+
+          
+            <nav id="navbar" class="navbar">
                 <ul>
-                <li><a class="nav-link scrollto active" href="index.html">الرئيسية</a></li>
-                    <li><a class="nav-link scrollto " href="index.html">الخدمات</a></li>
-                    <li><a class="nav-link scrollto" href="index.html">المميزات</a></li>
-                    <li><a class="nav-link scrollto" href="index.html">تواصل معنا</a></li>
+
+                    <li><a class="nav-link scrollto active" href="farad.html">الرئيسية</a></li> 
+
+                    <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                المعايير
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
+             <li><a class="dropdown-item" href="/IFRS.html">IFRS SMEs</a></li> 
+                <li><a class="dropdown-item" href="/soon.html">IFRS</a></li>
+                <li><a class="dropdown-item" href="/soon.html">IAS</a></li>
+            </ul>
+       
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                الخدمات
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/consultant.html">الاستشارات</a></li>
+                <li><a class="dropdown-item" href="/soon.html">تقييم اداء المنشات</a></li>
+                
+            </ul>
+            
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/img/images/person.png" alt="" style="width: 32px;">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="profilefarad.html">الملف الشخصي</a></li>
+                    <li><a class="dropdown-item" href="index.html" style="color: red;">تسجيل خروج</a></li>
                 </ul>
+            </li>
+            
+    
+                    </li>
+                </ul>
+
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <!-- .navbar -->
+            </nav><!-- .navbar -->
 
         </div>
-    </header>
+    </header><!-- End Header -->
     <!-- End Header -->
 
     <main id="main">
@@ -127,18 +166,18 @@
                         <div id="A" class="container tab-pane active">
                             <form method="post" class="shadow p-4">
                                 <div class="mb-3">
-                                    <label for="name">يحدد هذا القسم مبادئ إثبات وقياس املخزون.واملخزون هو أصول:</label>
+                                    <label for="name">يحدد هذا القسم مبادئ إثبات وقياس المخزون.والمخزون هو أصول:</label>
                                     <ul>
                                         <li><p>
-                                            محتفظ بها للبيع في السياق العادي لألعمال؛ أو
+                                            محتفظ بها للبيع في السياق العادي  
                                         </p></li>
 
                                         <li><p>
-                                            ي مرحلة اإلنتاج لغرض البيع؛ أو 
+                                             مرحلة انتاج لغرض البيع 
                                         </p></li>
 
                                         <li><p>
-                                            في شكل مواد خام أوإمداداتمن املقرراستخدامها في عمليةاإلنتاج أوفيتقديم الخدمات. 
+                                            في شكل مواد خام أوإمدادات من المقرر استخدامها في عملية انتاج او في تقديم الخدمات. 
                                         </p></li>
                                     </ul>
                                 </div>
@@ -153,7 +192,7 @@
                                 <div class="mb-3">
                                     <ul>
                                         <li>
-                                            يجب على المنشاه ان تقيس المخزون بالتكلفه او السعر البيع المقدر مطروحا منه تكاليف استكمال الانتاج والبيه وايمها اقل 
+                                            يجب على المنشاه ان تقيس المخزون بالتكلفه او السعر البيع المقدر مطروحا منه تكاليف استكمال الانتاج والبيع 
                                         </li>
                                     </ul>
                                 </div>
@@ -163,13 +202,13 @@
 
                         
                     <div class="tab-content" >
-                        <div id="C" class="container tab-pane active">
+                        <div id="C" class="container tab-pane ">
                             <form action="login.html" method="post" class="shadow p-4">
                                 <div class="mb-3">
                                     <ul>
                                         <li>
-                                            يجبعل المنشأة أن تدرج ضمن تكلفةالمخزون جميع تكاليف الشراء،وتكاليف التحويل،والتكاليف األخرى التي يتم
-                                            تحملها إليصال املخزون إلىموقعهالحاليوحالتهالراهنة. 
+                                            يجب على المنشأة أن تدرج ضمن تكلفة المخزون جميع تكاليف الشراء،وتكاليف التحويل،والتكاليف الاخرى التي يتم
+                                            تحملها الى ايصال المخزون إلى موقعها الحالي وحالتها الراهنة. 
                                         </li>
                                     </ul>
                                 </div>

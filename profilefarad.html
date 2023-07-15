@@ -39,36 +39,45 @@
   ======================================================== -->
 
     <style>
+    .ratings {
+        margin-right: 10px;
+    }
+
+    .ratings i {
+
+        color: #cecece;
+        font-size: 32px;
+    }
+
+    .rating-color {
+        color: #fbc634 !important;
+    }
+
+    .review-count {
+        font-weight: 400;
+        margin-bottom: 2px;
+        font-size: 24px !important;
+    }
+
+    .small-ratings i {
+        color: #cecece;
+    }
+
+    .review-stat {
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    
     #main {
 
         background: linear-gradient(to bottom, #1d1b5a 0%, #3b388d 65%, #444188 100%);
-        color: #fff;
     }
 
-    .nav-link {
+    #main form {
 
-        color: #fff;
-    }
-
-    .nav-link:hover {
-
-        color: #fff;
-    }
-
-    form a {
-
-        color: #fff;
-    }
-
-    form a:hover {
-
-        color: #fff;
-    }
-
-    #main form button {
-
-        color: #4D58C2;
-        background: #fff;
+      background: #fff;
+      border-radius: 8px;
     }
     </style>
 
@@ -76,11 +85,13 @@
 
 <body>
 
+    <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
             <h1 class="logo"><a href="farad.html">معيار</a></h1>
-            
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
           
             <nav id="navbar" class="navbar">
@@ -99,7 +110,6 @@
                    <li><a class="dropdown-item" href="/soon.html">IFRS</a></li>
                    <li><a class="dropdown-item" href="/soon.html">IAS</a></li>
                </ul>
-          
        
 
         <li class="nav-item dropdown">
@@ -134,66 +144,30 @@
         </div>
     </header><!-- End Header -->
 
-
     <main id="main">
-        <br>
+        <br><br><br>
         <div class="container mt-15">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <div class="mb-3">
-                        <br><br>
-                        <h3 class="text-center">طلب استشارة</h3>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-lg-12 col-md-12 col-xl-12 col-sm-12 col-xs-12">
-                            <span class="text-center"
-                                style="background-color: green; color: white;"></span>
-                        </div>
-                    </div>
-                 
-
-                    <br>
-
                     <form action="#" method="post" class="shadow p-4">
-                        <div class="mb-3">
-                            <label for="email">نوع الاستشارة</label>
-                            <input type="text" class="form-control" name="email" id="email"
-                                placeholder="أدخل نوع الاستشارة" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password">تفاصيل الاستشارة</label>
-                            <input type="text" class="form-control" name="password" id="password"
-                                placeholder="أدخل تفاصيل الاستشارة" required>
-                        <!-- </div>
-                        <div class="mb-3">
-                            <label for="password">التاريخ</label>
-                            <input type="password" class="form-control" name="password" id="password"
-                                placeholder="أدخل التاريخ" required>
-                        </div> -->
-                        <div class="mb-3">
-                            <label for="password" style="margin-top: 10px;">التاريخ</label>
-                             <input type="date" id="date" name="date" class="form-control" placeholder="أدخل التاريخ" required>
-                            
-                        </div>
-                        <div class="mb-3">
-                            <label for="password">الوقت</label>
-                            <input type="time" class="form-control" name="password" id="password"
-                                placeholder="أدخل الوقت" required>
-                        </div>
-
-                        
-                       
-                       
                         <div class="mb-3 text-center">
-                            <button type="submit" class="btn btn-primary"><a href="/soon.html" style="color:#31696e;">طلب</a></button>
-                        </div>
+                            <!-- <img src="./assets/img/images/person.png" alt="" style="height: 20vh;"> -->
+                            <i class="bi bi-person-circle" style="font-size: 130px; color: #9a9898;"></i>
+                            <h4>ساره الحنيني</h4>
+                            <h5> محاسب سعودي مميز </h5>
+                            <h5> </h5>
+                            <!-- <h5> اللغات : العربية ، الإنجليزية</h5>
+                            <h5>الجلسة : 100 ريال / 30 دقيقة</h5> -->
+                            <br><br>
+                                <!-- <a href="ordercons.html" class="btn btn-primary" style="background-color: #31696e; margin-top: 20px;">طلب استشارة</a> -->
 
-                    </form>
-                </div>
-            </div>
-            <br>
-            <br>
-            
+
+
+
+                        </div>
+               
+        <br>
+        <br>
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -226,7 +200,29 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
 
+    function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                a[i].style.display = "";
+            } else {
+                a[i].style.display = "none";
+            }
+        }
+    }
+    </script>
 </body>
 
 </html>
