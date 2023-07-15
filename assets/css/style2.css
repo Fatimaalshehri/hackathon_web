@@ -20,14 +20,14 @@ body {
 }
 
 a {
-  color: #31696e;
+  color: #196b5c;
   text-decoration: none;
 }
 #textm {
   
 }
 a:hover {
-  color: #31696e;
+  color: #196b5c;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #31696e;
+  border: 6px solid #196b5c;
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
@@ -87,7 +87,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #31696e;
+  background: #196b5c;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -101,7 +101,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #31696e;
+  background: #196b5c;
   color: #fff;
 }
 
@@ -123,7 +123,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #31696e;
+  background: #196b5c;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -187,20 +187,21 @@ h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Tajawal";
-  color: #31696e;
+  color: #196b5c;
 }
 
 #header .logo a {
-  color: #31696e;
+  color: #196b5c;
 }
 
 #header .logo a span {
-  color: #31696e;
+  color: #196b5c;
 }
 
 #header .logo img {
   max-height: 40px;
 }
+
 
 .scrolled-offset {
   margin-top: 70px;
@@ -245,7 +246,7 @@ h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: #196b5c;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -265,7 +266,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #31696e;
+  background-color: #196b5c;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -282,7 +283,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #31696e;
+  color: #368777;
 }
 
 .navbar .dropdown ul {
@@ -316,7 +317,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #31696e;
+  color: #196b5c;
 }
 
 .navbar .dropdown:hover>ul {
@@ -426,7 +427,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #31696e;
+  color: #368777;
 }
 
 .navbar-mobile .getstarted,
@@ -461,7 +462,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #05482a;
+  color: #368777;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -489,8 +490,8 @@ h6 {
 #hero:before {
   content: "";
   /* background-color index here */
-  background: #0e6150; 
-    background: linear-gradient(to bottom, #0e5c50 0%, #277d6d 65%, #44a493 100%);
+  background: #368777; 
+    background: linear-gradient(to bottom, #0e5c50 0%, #196b5c 65%, #368777 100%);
 
 
   position: absolute;
@@ -509,13 +510,13 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #196b5c;
   font-family: "Tajawal";
   margin-top: 100px;
 }
 
 #hero h1 span {
-  color: #31696e;
+  color: #196b5c;
 }
 
 #hero h2 {
@@ -536,7 +537,7 @@ h6 {
   padding: 10px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #31696e;
+  color: #368777;
   background: #fff;
 }
 
@@ -549,14 +550,14 @@ h6 {
   font-size: 16px;
   transition: 0.5s;
   margin-right: 25px;
-  color: #222222;
+  color: #196b5c;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
 
 #hero .btn-watch-video i {
-  color: #31696e;
+  color: #196b5c;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -564,11 +565,11 @@ h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: #31696e;
+  color: #196b5c;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #31696e;
+  color: #196b5c;
 }
 
 @media (min-width: 1024px) {
@@ -605,11 +606,17 @@ h6 {
   }
 }
 
+.icon-box .icon {
+  font-size: 5rem; /* change this value to adjust the size of the icons */
+  margin-bottom: 15px;
+  color: #8c7816;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -629,7 +636,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #31696e;
+  color: #196b5c;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -641,8 +648,9 @@ section {
   font-weight: 700;
 }
 
+
 .section-title h3 span {
-  color: #31696e;
+  color: #368777;
 }
 
 .section-title p {
@@ -658,7 +666,7 @@ section {
 
 .modal-footer button {
 
-  background-color: #31696e; 
+  background-color: #368777; 
   color: white;
 }
 
@@ -745,7 +753,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #31696e;
+  background: #368777;
   top: 0;
   border-radius: 0px;
 }
@@ -758,7 +766,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #31696e;
+  color: #368777;
   transition: all 0.3s ease-in-out;
   
 }
@@ -770,7 +778,7 @@ section {
 }
 
 .featured-services a {
-  color: #111;
+  color: #196b5c;
   width: 100%;
 }
 
@@ -818,13 +826,13 @@ section {
   font-size: 24px;
   padding: 20px;
   margin-right: 15px;
-  color: #31696e;
+  color: #368777;
   border-radius: 50px;
 }
 
 .about .content ul h5 {
   font-size: 18px;
-  color: #555555;
+  color: #196b5c;
 }
 
 .about .content ul p {
@@ -852,7 +860,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #196b5c;
 }
 
 .skills .progress .skill .val {
@@ -869,7 +877,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #31696e;
+  background-color: #368777;
 }
 
 /*--------------------------------------------------------------
@@ -893,7 +901,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #31696e;
+  background: #368777;
   color: #fff;
   width: 56px;
   height: 56px;
@@ -909,7 +917,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #31696e;
+  color: #368777;
 }
 
 .counts .count-box p {
@@ -953,7 +961,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  color: #31696e;
+  color: #196b5c;
 }
 
 .services .icon-box .icon {
@@ -971,19 +979,19 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #31696e;
+  color: #368777;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-bottom: 15px;
   font-size: 24px;
 }
 
 .services .icon-box h4 a {
-  color: #31696e;
+  color: #368777;
   transition: ease-in-out 0.3s;
 }
 
@@ -1000,11 +1008,11 @@ section {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
-  color: #31696e;
+  color: #368777;
 }
 
 .services .icon-box:hover .icon {
-  border-color: #31696e;
+  border-color: #368777;
 }
 /* .btn-primary{
   margin-right: 100px;
@@ -1546,7 +1554,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: #31696e;
+  background: linear-gradient(to bottom, #0e5c50 0%, #1f7969 65%, #368777 100%);
+  
 }
 .contact .section-title{
   color: white;
@@ -1680,7 +1689,7 @@ section {
   padding: 0 0 30px 0;
   color: #ffffff;
   font-size: 14px;
-  background: #31696e  ;
+  background: #368777;
 }
 
 #footer .footer-newsletter {
@@ -1894,3 +1903,6 @@ margin-right: 70px;
   padding-top: 3rem;
 }
 
+h4 {
+  color: #196b5c;
+}
